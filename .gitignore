@@ -1,0 +1,11 @@
+node_modules
+package-lock.json
+yarn-error.log
+web
+.cache
+.tags
+tags
+.DS_Store
+.rpt2_cache
+# NOTE: from @GiyyaPan 不要ignore yarn.lock 以保证依赖版本一致
+# NOTE: from @GiyyaPan 不要ignore .vscode 以保证项目级配置共享

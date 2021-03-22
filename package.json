@@ -1,0 +1,27 @@
+{
+  "name": "fabric-demo",
+  "version": "0.0.1",
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "node_modules/.bin/winged dev",
+    "build": "node_modules/.bin/winged build",
+    "lint": "node_modules/tslint/bin/tslint --project ./ --fix src/ts/**.*.ts"
+  },
+  "dependencies": {
+    "@antv/x6": "^1.17.6",
+    "@types/jquery": "^3.5.5",
+    "@types/jquery-mousewheel": "^3.1.8",
+    "@types/lodash": "^4.14.168",
+    "@types/lodash-es": "^4.17.4",
+    "@types/mousetrap": "^1.6.5",
+    "@types/node": "^14.14.35",
+    "@winged/cli": "git+ssh://git@gitlab-ssh.yiban.io:frontend/winged-cli.git#0.9.7",
+    "babel-preset-env": "^1.7.0",
+    "mousetrap": "^1.6.5",
+    "winged": "git+ssh://git@gitlab-ssh.yiban.io:frontend/winged.git#0.9.1"
+  },
+  "devDependencies": {
+    "tslint": "^5.11.0",
+    "typescript": "^3.8.3"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "alwaysStrict": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "strict": true,
+    "noFallthroughCasesInSwitch": true,
+    "experimentalDecorators": true,
+    "target": "es6",
+    "rootDir": "./src/ts",
+    "outDir": "./wxapp",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "types": [
+      "winged"
+    ],
+    "lib": [
+      "es6",
+      "dom" //not exactly need, just for test purpose
+    ]
+  },
+  "compileOnSave": false
+}
